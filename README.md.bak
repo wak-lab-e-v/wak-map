@@ -77,13 +77,7 @@ Bitte probieren Sie es unbedingt aus.
 Wenn Ihre Änderungen fertig sind, müssen Sie die Änderungen "festschreiben" und "zurückschieben" an GitHub.
 Warten Sie einfach ein paar Minuten, und Ihre Karte wird automatisch an den Webserver der GitHub-Seiten weitergegeben.
 
-
-### Karte hochladen
-git add .
-git commit -m "Meine neue Karte"
-git push
-
-TODO:
+TODO: Beschreibe, wie man pusht
 Mehr zu diesem Ausgangstext
 Für weitere Übersetzungsinformationen ist ein Ausgangstext erforderlich
 Feedback geben
