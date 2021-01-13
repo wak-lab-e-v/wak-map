@@ -1,27 +1,27 @@
-# WorkAdventure Map Starter Kit
+# WorkAdventure Map Starter Kit des WAK-LAB
 
-Dies ist ein Starter-Kit, mit dem Sie Ihre eigene Karte für 
-[WorkAdventure](https://workadventu.re) erstellen können.
+Dies ist ein Starter-Kit, mit dem Sie Ihre eigene Karte fÃ¼r 
+[WorkAdventure](https://workadventu.re) erstellen kÃ¶nnen.
 
-## Werkzeuge, die Sie benötigen
+## Werkzeuge, die Sie benÃ¶tigen
 
-Um Ihre eigene Karte für WorkAdventure zu erstellen, benötigen Sie:
+Um Ihre eigene Karte fÃ¼r WorkAdventure zu erstellen, benÃ¶tigen Sie:
 
 - die Software [Tiled Editor] (https://www.mapeditor.org/)
-- "Kacheln" (d. h. Bilder) zum Erstellen Ihrer Karte (dieses Starter-Kit bietet ein gutes Standard-Kachelset für Büros)
-- ein Webserver zur Bereitstellung Ihrer Karte (in diesem Starter-Kit wird vorgeschlagen, statische Github-Seiten als kostenlosen und leistungsfähigen Webserver zu verwenden).
+- "Kacheln" (d. h. Bilder) zum Erstellen Ihrer Karte (dieses Starter-Kit bietet ein gutes Standard-Kachelset fÃ¼r BÃ¼ros)
+- ein Webserver zur Bereitstellung Ihrer Karte (in diesem Starter-Kit wird vorgeschlagen, statische Github-Seiten als kostenlosen und leistungsfÃ¤higen Webserver zu verwenden).
 
 ## Anfangen
 
 Auf der [Github-Repository-Seite] (https://github.com/thecodingmachine/workadventure-map-starter-kit),
-Klicken Sie auf die Schaltfläche ** "Diese Vorlage verwenden" **. Sie werden aufgefordert, einen Repository-Namen für Ihre Karte einzugeben.
+Klicken Sie auf die SchaltflÃ¤che ** "Diese Vorlage verwenden" **. Sie werden aufgefordert, einen Repository-Namen fÃ¼r Ihre Karte einzugeben.
 
 ![](docs/create_repo.png)
 
-Stellen Sie sicher, dass das Repository "Öffentlich" ist.
+Stellen Sie sicher, dass das Repository "Ã–ffentlich" ist.
 
 Klicken Sie in Ihrem neu erstellten Repository auf die Registerkarte ** Einstellungen ** und scrollen Sie zum Abschnitt ** GitHub-Seiten **.
-Wählen Sie dann den Zweig ** gh-pages ** aus.
+WÃ¤hlen Sie dann den Zweig ** gh-pages ** aus.
 
 ![](docs/github_pages.png)
 
@@ -34,15 +34,15 @@ Klick auf den Link. Sie sollten direkt zu WorkAdventure auf Ihrer Karte weiterge
 
 ## Anpassen Ihrer Karte
 
-Ihre Karte ist jetzt online. Sie müssen es anpassen.
+Ihre Karte ist jetzt online. Sie mÃ¼ssen es anpassen.
 
 ### Klonen der Karte
 
-Beginnen Sie mit dem Klonen der Karte. Wenn Sie an Git und GitHub gewöhnt sind, klonen Sie einfach die Karte
-mit Ihrem bevorzugten Werkzeug auf Ihren Computer und [zum nächsten Kapitel springen] (# Laden der Karte in Kacheln).
+Beginnen Sie mit dem Klonen der Karte. Wenn Sie an Git und GitHub gewÃ¶hnt sind, klonen Sie einfach die Karte
+mit Ihrem bevorzugten Werkzeug auf Ihren Computer und [zum nÃ¤chsten Kapitel springen] (# Laden der Karte in Kacheln).
 
 Wenn Sie Git noch nicht kennen, bedeutet das Klonen der Karte, dass Sie die Karte auf Ihren Computer herunterladen.
-Dazu benötigen Sie Git oder ein Git-kompatibles Tool. Unser Rat ist zu verwenden
+Dazu benÃ¶tigen Sie Git oder ein Git-kompatibles Tool. Unser Rat ist zu verwenden
 [GitHub Desktop](https://desktop.github.com/).
 
 TODO: testen und fortfahren
@@ -50,7 +50,7 @@ TODO: testen und fortfahren
 ### Laden der Karte in Tiled
 
 Die Beispielkarte befindet sich in der Datei "map.json".
-Sie können diese Datei in [Kacheln] (https://www.mapeditor.org/) laden.
+Sie kÃ¶nnen diese Datei in [Kacheln] (https://www.mapeditor.org/) laden.
 
 Jetzt liegt es an Ihnen, die Karte zu bearbeiten und Ihre eigene Karte zu schreiben.
 
@@ -59,22 +59,22 @@ Einige Ressourcen zu Tiled:
 - [Gekachelte Dokumentation] (https://doc.mapeditor.org/en/stable/manual/introduction/)
 - [Tiled Video Tutorials] (https://www.gamefromscratch.com/post/2015/10/14/Tiled-Map-Editor-Tutorial-Series.aspx)
 
-### Über WorkAdventu.re-Karten
+### Ãœber WorkAdventu.re-Karten
 
-Um eine Karte zu entwerfen, die von WorkAdventure gelesen werden kann, müssen Sie einige Einschränkungen beachten.
+Um eine Karte zu entwerfen, die von WorkAdventure gelesen werden kann, mÃ¼ssen Sie einige EinschrÃ¤nkungen beachten.
 
-Insbesondere müssen Sie:
+Insbesondere mÃ¼ssen Sie:
 
-- Legen Sie eine Startposition für die Spieler fest
-- Konfigurieren Sie die "Bodenebene" (damit WorkAdventure Zeichen über dem Boden, aber unter der Decke korrekt anzeigen kann).
-- Schließlich können Sie Ausgänge platzieren, die auf andere Karten verweisen
+- Legen Sie eine Startposition fÃ¼r die Spieler fest
+- Konfigurieren Sie die "Bodenebene" (damit WorkAdventure Zeichen Ã¼ber dem Boden, aber unter der Decke korrekt anzeigen kann).
+- SchlieÃŸlich kÃ¶nnen Sie AusgÃ¤nge platzieren, die auf andere Karten verweisen
 
 All dies wird in der [WorkAdventure-Dokumentation] (https://github.com/thecodingmachine/workadventure/#designing-a-map) beschrieben.
 Bitte probieren Sie es unbedingt aus.
 
 ### Karte verschieben
 
-Wenn Ihre Änderungen fertig sind, müssen Sie die Änderungen "festschreiben" und "zurückschieben" an GitHub.
+Wenn Ihre Ã„nderungen fertig sind, mÃ¼ssen Sie die Ã„nderungen "festschreiben" und "zurÃ¼ckschieben" an GitHub.
 Warten Sie einfach ein paar Minuten, und Ihre Karte wird automatisch an den Webserver der GitHub-Seiten weitergegeben.
 
 
@@ -85,6 +85,6 @@ git push
 
 TODO:
 Mehr zu diesem Ausgangstext
-Für weitere Übersetzungsinformationen ist ein Ausgangstext erforderlich
+FÃ¼r weitere Ãœbersetzungsinformationen ist ein Ausgangstext erforderlich
 Feedback geben
 Seitenleisten
