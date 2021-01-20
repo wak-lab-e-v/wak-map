@@ -200,6 +200,12 @@
          "id":19,
          "name":"JitsyRaum_WAK-Lab-Keller",
          "opacity":0.2,
+         "properties":[
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"WAK-Lab-Keller"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":90,
